@@ -1,7 +1,10 @@
 let weight;
-let hights;
+let height;
+let BMI;
 
 weight = 68;
-hights = 1.7;
+height = 1.7;
+BMI = weight/(height*height);
 
-console.log([weight]/[hights*hights]) ;
+
+console.log(BMI) ;
